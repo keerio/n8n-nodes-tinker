@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-jnode",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "An attempt to consume unofficial Joplin Api with n8n",
   "keywords": [
     "n8n-community-node-package",
