@@ -3,22 +3,22 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.jApi = void 0;
 class jApi {
     constructor() {
-        this.name = 'jApi';
-        this.displayName = 'Joplin API';
+        this.name = "jApi";
+        this.displayName = "Joplin API";
         this.properties = [
             {
-                displayName: 'URL1',
-                name: 'baseUrl',
-                type: 'string',
+                displayName: "URL1",
+                name: "baseUrl",
+                type: "string",
                 typeOptions: { password: false },
-                default: '',
+                default: "",
             },
             {
-                displayName: 'Token',
-                name: 'token',
-                type: 'string',
+                displayName: "Token",
+                name: "token",
+                type: "string",
                 typeOptions: { password: false },
-                default: '',
+                default: "",
             },
         ];
     }

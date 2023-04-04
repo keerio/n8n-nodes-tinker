@@ -1,18 +1,18 @@
 {
-	"node": "n8n-nodes-community.jnode",
-	"nodeVersion": "0.2",
-	"codexVersion": "0.2",
-	"categories": ["Development", "Productivity"],
-	"resources": {
-		"credentialDocumentation": [
-			{
-				"url": "https://"
-			}
-		],
-		"primaryDocumentation": [
-			{
-				"url": "https://"
-			}
-		]
-	}
+  "node": "n8n-nodes-community.jnode",
+  "nodeVersion": "0.2",
+  "codexVersion": "0.2",
+  "categories": ["Development", "Productivity"],
+  "resources": {
+    "credentialDocumentation": [
+      {
+        "url": "https://"
+      }
+    ],
+    "primaryDocumentation": [
+      {
+        "url": "https://"
+      }
+    ]
+  }
 }

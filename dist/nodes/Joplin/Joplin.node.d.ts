@@ -1,4 +1,4 @@
-import type { IExecuteFunctions, ILoadOptionsFunctions, INodeExecutionData, INodePropertyOptions, INodeType, INodeTypeDescription, INodeListSearchResult } from 'n8n-workflow';
+import type { IExecuteFunctions, ILoadOptionsFunctions, INodeExecutionData, INodePropertyOptions, INodeType, INodeTypeDescription, INodeListSearchResult } from "n8n-workflow";
 export declare class Joplin implements INodeType {
     description: INodeTypeDescription;
     methods: {

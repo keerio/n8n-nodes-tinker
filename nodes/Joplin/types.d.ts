@@ -1,31 +1,31 @@
-type Resource = 'folder' | 'note' | 'tag' | 'resource';
+type Resource = "folder" | "note" | "tag" | "resource";
 
-type Operation = 'create' | 'delete' | 'update' | 'get' | 'assign' | 'upload';
+type Operation = "create" | "delete" | "update" | "get" | "assign" | "upload";
 
 type LoadedResource = {
-	id: string;
-	name: string;
+  id: string;
+  name: string;
 };
 
 type LoadOption = {
-	value: string;
-	name: string;
+  value: string;
+  name: string;
 };
 
 type LoadedUser = {
-	id: string;
-	full_name_display: string;
+  id: string;
+  full_name_display: string;
 };
 
 type LoadedUserStory = {
-	id: string;
-	subject: string;
+  id: string;
+  subject: string;
 };
 
 // type LoadedEpic = LoadedUserStory;
 
 type LoadedTags = {
-	[tagName: string]: string | null; // hex color
+  [tagName: string]: string | null; // hex color
 };
 
 // type Operations = 'all' | 'create' | 'delete' | 'change';
